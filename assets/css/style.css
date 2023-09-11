@@ -2,12 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Cambria;
 }
 
 header {
-    background-color: rgb(56, 54, 54);
+    background-color: #ffff;
     padding: 20px;
-    color: #ffff !important;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,7 +24,7 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: white;
+    color: #cb0d9f;
     font-size: 18px;
 }
 
@@ -50,8 +50,8 @@ header button:hover {
 
 header .logo {
     letter-spacing: 2px;
-    color: #00e3ff;
-    font-size: 20px;
+    color: #5e3aa1;
+    font-size: 25px;
 }
 
 header a {
@@ -59,12 +59,12 @@ header a {
 }
 
 .profile-section-heading {
-    font-size: 22px;
+    font-size: 25px;
     color: rgb(248, 248, 116);
 }
 
 section.profile-section {
-    background-color: rgb(30, 28, 28);
+    background-color: #151424;
     color: white;
     display: flex;
     padding: 20px 30px 0px 150px;
@@ -119,3 +119,30 @@ ul.social-icons {
     color: white;
     cursor: pointer;
 }
+
+.skill-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-skills p {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: #ab6499;
+    letter-spacing: 1px;
+}
+
+.tech-skill-div {
+    padding: 50px;
+}
+
+
+/* .tech-skill-bg {
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+} */
