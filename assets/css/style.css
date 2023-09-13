@@ -202,7 +202,7 @@
         justify-content: center;
     }
     
-    @media only screen and (min-width: 768px) and (max-width:1024px) {
+    /* @media only screen and (min-width: 768px) and (max-width:1024px) {
         header {
             display: block;
         }
@@ -220,4 +220,4 @@
         header ul li a {
             font-size: 13px !important;
         }
-    }
+    } */
